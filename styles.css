@@ -1,0 +1,36 @@
+*{
+    background-color: beige;
+    color: rgb(29, 135, 197);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#taskList {
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin:0 auto;
+}
+
+  .line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 80%;       
+    max-width: 600px;
+  }
+  
+  .line input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
